@@ -95,3 +95,13 @@ published: true
 2. ?
 3. 选择C++ Attach 
 4. 在源文件中打断点
+
+### 调试子进程
+在调用fork函数之前，执行如下动作：
+* 通过断点进行调试状态后
+* 在debug console中执行
+```
+-exec set follow-fork-mode child
+```
+* 在子进程执行的可执行文件的源码中打断点
+* 在执行exec函数后就会在上述断点中断住
