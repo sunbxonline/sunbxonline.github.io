@@ -1,10 +1,9 @@
 # Site Settings
-title: Bulma Clean Theme
+title: Sun's blog
 tagline: Bulma Clean Theme
 email: your-email@domain.com
-description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/bulma-clean-theme"
+description:
+baseurl: ""
 url: "https://www.csrhymes.com"
 permalink: pretty
 #favicon: /path/to/favicon.png
@@ -40,7 +39,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-livereload: true
+#livereload: true
 
 sass:
   style: compressed
