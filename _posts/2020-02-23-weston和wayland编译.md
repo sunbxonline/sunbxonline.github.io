@@ -2,10 +2,13 @@
 layout: page
 title: 在Ubuntu16.04上编译运行weston
 image: https://wayland.freedesktop.org/wayland.png
+hero_image: https://www.bing.com/th?id=OHR.OtterCreekVT_ZH-CN0564511657_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
 toc: true
 tags: weston wayland
 published: true
 ---
+
+<!--more-->
 
 ### 设置环境变量
 ```

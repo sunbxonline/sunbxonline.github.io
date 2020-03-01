@@ -6,6 +6,13 @@ layout: default
     {% assign contentsTitle = page.toc_title | default: 'Contents' %}
     {% include toc.html html=content class='menu-list' h_min=2 h_max=3 contents_title=contentsTitle %}
 {% endif %}
+<div class="tags">
+    {% for tag in page.tags %}
+    <span class="tag is-primary">{{ tag }}</span>
+    {% endfor %}
+</div>
 <div class="content">
     {{ content }}
 </div>
+
+

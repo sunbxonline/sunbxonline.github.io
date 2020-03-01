@@ -1,10 +1,10 @@
 # Site Settings
-title: Sun's blog
-tagline: Bulma Clean Theme
-email: your-email@domain.com
+title: 天地一沙鸥
+#tagline: Bulma Clean Theme
+email: sunbxonline@gmail.com
 description:
 baseurl: ""
-url: "https://www.csrhymes.com"
+url: "https://sunbxonline.github.io"
 permalink: pretty
 #favicon: /path/to/favicon.png
 theme: bulma-clean-theme
@@ -18,7 +18,7 @@ disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   # shortname: my_disqus_shortname
-  shortname: csrhymes
+  shortname: sunbxonline
 
 
 plugins:
@@ -53,16 +53,17 @@ defaults:
       path: ""
       type: "pages"
     values:
-      show_sidebar: true
+      show_sidebar: false
+      hero_image: https://www.bing.com/th?id=OHR.OtterCreekVT_ZH-CN0564511657_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
   -
     scope:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "Sun"
       layout: post
-      image: https://via.placeholder.com/1200x800
-      show_sidebar: true
+      hero_image: https://www.bing.com/th?id=OHR.OtterCreekVT_ZH-CN0564511657_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
+      show_sidebar: false
 
 markdown: kramdown
 highlighter: rouge
